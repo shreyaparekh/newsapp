@@ -1,16 +1,16 @@
-import './App.css';
+import "./App.css";
 
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import NavBar from "./components/NavBar";
+import News from "./components/News";
 
 export default class App extends Component {
-  c='shreya';
   render() {
     return (
       <div>
-        Hello my First classbaed component {this.c}
+        <NavBar></NavBar>
+        <News></News>
       </div>
-    )
+    );
   }
 }
-
-
