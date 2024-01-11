@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import {
   Link
 } from "react-router-dom";
 export class NavBar extends Component {
-  static propTypes = {
+  // static propTypes = {
 
-  }
+  // }
 
   render() {
     return (
