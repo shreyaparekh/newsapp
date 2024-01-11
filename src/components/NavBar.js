@@ -3,15 +3,16 @@ import React, { Component } from 'react'
 import {
   Link
 } from "react-router-dom";
-export class NavBar extends Component {
+// export class NavBar extends Component { class based
+const NavBar =() =>{
   // static propTypes = {
 
   // }
 
-  render() {
+  // render() {
     return (
       <div>
-       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" to="#">News Monkey</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +38,7 @@ export class NavBar extends Component {
 </nav> 
       </div>
     )
-  }
+  // }
 }
 
 export default NavBar
